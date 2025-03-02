@@ -14,6 +14,7 @@ func run() {
 		iup.Label("Multiplatform GUI"),
 	)).SetAttributes(`TITLE=Multiplatform GUI, SIZE=800x600`)
 
-	dlg.Show()
+	// dlg.Show()
+	iup.ShowXY(dlg, iup.CENTER, iup.CENTER)
 	iup.MainLoop()
 }
